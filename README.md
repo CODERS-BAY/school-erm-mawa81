@@ -34,3 +34,14 @@ head of department (teacher)
 form of education of the departments
 
 curriculum
+
+
+
+#### Own ERM:
+
+![Own ERM](school_erm01.jpg)
+![Own ERM](school_erm02.jpg)
+
+#### Group ERM:
+
+![Own ERM](school_ERM_group.png)
