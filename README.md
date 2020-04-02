@@ -20,22 +20,7 @@ each teaching obligation group, which is used to convert lessons into value unit
 A parent is responsible for each pupil (unless the pupil is a self-entitled 
 guardian). If siblings attend school, this should also be able to be determined.
 
-
-departmental structure
-
-teacher is assigned to a department as a master department
-
-department
-
-classes
-
-head of department (teacher)
-
-form of education of the departments
-
-curriculum
-
-
+### first solution
 
 #### Own ERM:
 
@@ -45,3 +30,15 @@ curriculum
 #### Group ERM:
 
 ![Own ERM](school_ERM_group.png)
+
+### second solution
+
+#### ERM
+
+![ERM]()
+
+#### textual notation
+
+#### SQL
+
+[]
