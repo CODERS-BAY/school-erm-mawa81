@@ -39,6 +39,22 @@ guardian). If siblings attend school, this should also be able to be determined.
 
 #### textual notation
 
+teacher(***teacherID***:int(8),***masterdepartment***:varchar(32))
+personal_info(**persID:int(8)**, firstname:varchar(32), lastname:varchar(32),address:varchar(32),phonenumber:varchar(32))
+department(**departmentname**:varchar(32),*headofdepartment*:int(8))
+teacher_of_department(***departmentname***:varchar(32),***teacherID***:int(8))
+form_of_education(**form_of_edu_name**:varchar(32), degree:varchar(32) )
+foe_department_curriculum_list(***form_of_edu_name***:varchar(32), ***departmentname***:varchar(32),  ***year***:int(2),*curriculumID*:int(8))
+curriculum(***curriculumID***:int(8),*subject*:varchar(32), theory_amount:int(8), practice_amount:int(8))
+class(***form_of_edu_name***:varchar(32), ***departmentname***:varchar(32),  ***year***:int(2),***letter***:varchar(1),*class_leader*:int(8), room:varchar(32))
+teachers_of_class(***form_of_edu_name***:varchar(32), ***departmentname***:varchar(32),  ***year***:int(2),***letter***:varchar(1), ***teacherID***:int(8),***subject***:varchar(32), factor_for_teaching_groups:float(24),value_units:float(24))
+subject(***subjectID***:varchar(32), teaching_group:varchar(32))
+student(***studentID***:int(8), is_selfentitled:boolean)
+students_of_class(***form_of_edu_name***:varchar(32), ***departmentname***:varchar(32),  ***year***:int(2),***letter***:varchar(1),***studentID***,int(8),function:varchar(32))
+student_year_marks(***studentID***,int(8), ***year***:int(2), ***subjectID***:varchar(32), semestermark:int(1), yearmark:int(1), actual_year:timestamp)
+parent(***parentID***:int(8), role:varchar(32))
+parent_of_students(***parentID***:int(8), ***studentID***,int(8))
+
 #### SQL
 
 []
