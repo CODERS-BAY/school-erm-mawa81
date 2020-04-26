@@ -35,7 +35,7 @@ guardian). If siblings attend school, this should also be able to be determined.
 
 #### ERM
 
-![ERM]()
+![ERM](school_ERM.jpg)
 
 #### textual notation
 
